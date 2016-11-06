@@ -1,0 +1,10 @@
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW PWPROTECTID:uDaNaheGeG
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/u822363871/public_html/rcdocuments/.htpasswd
+Require user rct
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE uDaNaheGeG:PWPROTECTID
+
