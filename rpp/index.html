@@ -6,6 +6,18 @@
 -->
 <html>
 	<head>
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "38af0fd6-baa4-4f5d-92de-2a9938cda35f",
+      autoRegister: false,
+      notifyButton: {
+        enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
 		<title>Creeperdu38 | RedPowerPack</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
